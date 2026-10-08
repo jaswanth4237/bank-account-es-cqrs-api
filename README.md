@@ -1,6 +1,6 @@
 # Bank Account Management API (ES/CQRS)
 
-This project implements a fully functional bank account management system using **Event Sourcing (ES)** and **Command Query Responsibility Segregation (CQRS)**.
+This project implements  fully functional bank account management system using **Event Sourcing (ES)** and **Command Query Responsibility Segregation (CQRS)**.
 
 ## Architecture
 
