@@ -30,7 +30,7 @@ class QueryHandler {
     }
 
     async getBalanceAt(accountId, timestamp) {
-        // Reconstruct state up to a point in time
+        // Reconstruct state up to a point in time.
         const res = await db.query(
             'SELECT * FROM events WHERE aggregate_id = $1 AND timestamp <= $2 ORDER BY event_number ASC',
             [accountId, timestamp]
